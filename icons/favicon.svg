@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -65 1130 1130">
+  <!-- Bländarloggan, positiv som i headern: marinblå i en vit cirkel med vit kant (public/brand/yes-logo.svg). -->
+  <defs>
+    <path id="blade" d="M 97.73 205.17 A 498.75 498.75 0 0 1 384.93 14.71 L 575 205 Z"/>
+  </defs>
+  <circle cx="500" cy="500" r="565" fill="#ffffff"/>
+  <g fill="#0d1e3b">
+    <use href="#blade"/>
+    <use href="#blade" transform="rotate(45 500 500)"/>
+    <use href="#blade" transform="rotate(90 500 500)"/>
+    <use href="#blade" transform="rotate(135 500 500)"/>
+    <use href="#blade" transform="rotate(180 500 500)"/>
+    <use href="#blade" transform="rotate(225 500 500)"/>
+    <use href="#blade" transform="rotate(270 500 500)"/>
+    <use href="#blade" transform="rotate(315 500 500)"/>
+  </g>
+  <g fill="none" stroke="#0d1e3b" stroke-width="40" stroke-linecap="round">
+    <circle cx="500" cy="500" r="220"/>
+    <circle cx="447" cy="458" r="28" fill="#0d1e3b" stroke="none"/>
+    <circle cx="553" cy="458" r="28" fill="#0d1e3b" stroke="none"/>
+    <path d="M 390 544 Q 500 625 610 544"/>
+  </g>
+</svg>
